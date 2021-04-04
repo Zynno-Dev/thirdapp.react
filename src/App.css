@@ -1,5 +1,9 @@
+html{
+  background: rgba(47, 199, 186, 0.705);
+}
 .App {
   text-align: center;
+  height: auto;
 }
 
 .App-logo {
@@ -35,4 +39,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+ul {
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 50px;
+  justify-content: space-around;
+  list-style: none;
+}
+li {
+  height: calc(auto - 5px);
+  width: calc(auto - 5px);
+  background-color: #cc86c1;
+  color: #390fff;
+}
+nav {
+  background-color: #cc86c1;
+  margin-top: -50px;
+  padding-top: -50px;
+  width: calc(auto + 20px);
+  height: calc(100% + 30px);
+}
+a {
+  text-decoration: none;
 }
